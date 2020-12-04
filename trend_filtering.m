@@ -41,7 +41,7 @@ function trend = trend_filtering(s, approach, threshs)
                 istar = istars(1);
             end
         case 3
-            istar = energyratio_approach(imfs, Zs, threshL, threshR);
+            istar = energyratio_approach(imfs, Zs, [threshL, threshR]);
         otherwise
             istar = lineartrends_approach(imfs, res);
     end
