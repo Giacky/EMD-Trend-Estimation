@@ -13,7 +13,7 @@ http://perso.ens-lyon.fr/patrick.flandrin/emd.html
 
 How to set up the software
 * Download the folder
-* In MATLAB, set the folder as a current folder
+* In MATLAB, set the repository folder as the current folder
 * Run the setup.m script
 
 Notes:
